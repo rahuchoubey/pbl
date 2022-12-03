@@ -1,0 +1,5 @@
+customhost = "products.cgnagf94qgkw.ap-northeast-1.rds.amazonaws.com"
+customuser = "pbl"
+custompass = "rahul123"
+customdb = "customer_info"
+customregion = "ap-northeast-1d"
