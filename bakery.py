@@ -24,7 +24,7 @@ def home():
     return render_template('index.html')
 
 
-@app.route("/index.html", methods=['POST'])
+@app.route("/add", methods=['POST'])
 def customer():
     customer_id= request.form['customer_id']
     name = request.form['name']
