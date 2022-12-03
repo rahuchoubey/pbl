@@ -5,7 +5,6 @@ from config import *
 
 app = Flask(__name__)
 
-bucket = custombucket
 region = customregion
 
 db_conn = connections.Connection(
@@ -46,9 +45,6 @@ def customer():
 
     finally:
         cursor.close()
-
-    print("all modification done...")
-    return render_template('AddEmpOutput.html', name=emp_name)
 
 
 if __name__ == '__main__':
